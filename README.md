@@ -116,8 +116,8 @@ O relatório deve seguir padrões formais da área médica, incluindo identifica
 > Médico Plantonista — Clínica Médica
 > CRM/UF: 000000-SP
 
-OBS: O arquivo PDF está no repositório. Nome:  
-
+OBS: O arquivo PDF está no repositório. Nome: relatorio_medico_ficticio.pdf
+  
 
 ## Teste de Conversa com AI
 
