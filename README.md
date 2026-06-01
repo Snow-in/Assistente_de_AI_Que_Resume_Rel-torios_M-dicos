@@ -117,3 +117,8 @@ O relatório deve seguir padrões formais da área médica, incluindo identifica
 > CRM/UF: 000000-SP
 
 OBS: O arquivo PDF está no repositório. Nome:  
+
+
+## Teste de Conversa com AI
+
+link:  https://gemini.google.com/share/a0b578ebfbc8
