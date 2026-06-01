@@ -122,3 +122,48 @@ OBS: O arquivo PDF está no repositório. Nome: relatorio_medico_ficticio.pdf
 ## Teste de Conversa com AI
 
 link:  https://gemini.google.com/share/a0b578ebfbc8
+
+### Fluxo da conversa 
+
+[ ENTRADA DO USUÁRIO ]
+
+
+                (Texto, Arquivo .txt ou .pdf)
+                          │
+                          ▼
+            ┌───────────────────────────┐
+            │   Filtro de Segurança &   │
+            │  Classificação de Escopo  │
+            └─────────────┬─────────────┘
+                          │
+            Is Valid Medical Report?
+             ├── NÃO ──> [ ENTRADA_INVÁLIDA ] ──> Mensagem de Erro / Recusa
+             │
+             └── SIM ──> [ RELATÓRIO_MÉDICO ]
+                          │
+                          ▼
+            ┌───────────────────────────┐
+            │     Variável Global:      │
+            │    {{dados_armazenados}}  │
+            └─────────────┬─────────────┘
+                          │
+                          ▼
+            ┌───────────────────────────┐
+            │    Motor de Tradução      │
+            │     Passo a Passo         │
+            └─────────────┬─────────────┘
+                          │
+      ┌───────────────────┴───────────────────┐
+      ▼                                       ▼
+[ Análise de Termos ]                  [ Raciocínio Clínico ]
+Mapeamento de siglas                   Linha do tempo estruturada
+e jargões complexos                    em tópicos ultra-curtos
+      │                                       │
+      └───────────────────┬───────────────────┘
+                          ▼
+               [ Resumo Simplificado ]
+              Linguagem leiga e direta
+                          │
+                          ▼
+                [ NOTA DE ISENÇÃO ]
+             Aviso de acompanhamento médico
